@@ -79,7 +79,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Check input errors before sending email
     if(empty($nameErr) && empty($emailErr) && empty($messageErr)){
         // Recipient email address
-        $to = 'lkorbee@lkorbee.gc-webhosting.nl';
+        $to = 'kfreriks@kfreriks.gc-webhosting.nl';
         
         // Create email headers
         $headers = 'From: '. $email . "\r\n" .
